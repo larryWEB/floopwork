@@ -452,7 +452,11 @@
    
   }
   
-
+.captured-box a{
+	text-decoration:none;
+	color:black;
+}
+ 
   
   
   /* ABOUT */

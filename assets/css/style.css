@@ -495,9 +495,10 @@
   
   /* ABOUT */
   
-  .about{
-	 padding:20px;
-   background-image: url('/assets/images/service\ img.jpg') !important;
+ 
+ .about{
+	 padding:70px;
+   background-image: url('/assets/images/ABBBBBT.jpg') !important;
    background-blend-mode: overlay;
    background-size: cover;
 	 background-repeat: no-repeat;
@@ -507,22 +508,18 @@
   
   .about-text-card{
    position:relative;
-   left:-10px;
-  padding-bottom:15px;
-	   padding-top:15px;
+   left:-40px;
+   padding:15
   }
   
   .about-text-card p{
-	 text-align:justify;
-	  padding:5px;
-	    padding-bottom:10px;
-   
+	 padding-bottom:15px;
+   padding-top:10px;
   }
   
   .about-text-card h1{
-    padding:5px;
+
   }
-  
   
   
   /* PORTFOLIO */

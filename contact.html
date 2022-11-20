@@ -28,7 +28,6 @@
               <a href="https://wa.me/message/T6KVCPP5EUNTO1"><img class="whatsapp-img" src="assets/images/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png" ></a>
           </div>  
         
-          <div  class="scrollTop"><i class="fa-solid fa-chevron-up"></i></div>
 
        
 
@@ -100,7 +99,7 @@
                     </div> 
                 </div>
                 
-
+<div id="form-and-contact-card">
                 <div class="form-add-card">
                     <h1>Send Us A Message</h1>
                     <p>Feel free to contact us by filling the form given below</p>
@@ -136,7 +135,7 @@
        <br>
 
         <div class="contact-card">
-<p><b>Fruithloopworks production</b>,</p>
+<p><b> Fruithloopworks production</b>,</p>
     <p>40B Harrison isojola street, Ago palace way Okota lagos</p>
     <br>
     <p>+2348109894243. +2348124528544</p>
@@ -167,9 +166,9 @@
 
           </div>
 
+    </div>
 
-
-
+</div>
 
     </section>
         
@@ -378,9 +377,13 @@ color:black;
         }
         
         
-        #map-form{
+        #form-and-contact-card{
             display:grid;
             grid-template-columns: repeat(2,1fr);
+           
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         }
         
         #contact-head-text{
@@ -402,15 +405,18 @@ color:black;
         .contact-card p{
             font-size:15px;
         }
-        
-        
-        
+       
         
         }
         
-        
-        
-        
+        @media (min-width: 1024px) {
+           
+        #form-and-contact-card{
+            display:grid;
+          
+            grid-template-columns: repeat(2,500px);
+        }
+    }
         
         </style>
        <script src="assets/js/main.js"></script> 
